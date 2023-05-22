@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href=" css/style.css">
+    <title>Gym System</title>
+</head>
+<body>
+    <div class="all  ">
+        <div class="w-100 m-auto  shadow p-4">
+<h2>Dorgham Gym System</h2>
+<label for="memberName" class=" my-3">MenmberName:</label>
+<input type="text" class="form-control" id="memberName"> 
+
+<label for="descriptionPrice"  class=" my-3">DescriptionPrice:</label>
+<input type="number" class="form-control" id="descriptionPrice">
+
+<label for="startDate"  class=" my-3">StartDate:</label>
+<input type="date" class="form-control" id="startDate">
+
+
+<label for="endDate"  class=" my-3">EndDate:</label>
+<input type="date" class="form-control" id="endDate">
+
+
+
+<button class="btn btn-light fw-bold mt-3" onclick="addmember()">Add Member</button>
+
+</div>
+
+<div class="w-50 m-auto my-5   " >
+    <input type="text" placeholder="Search" id="search" class="form-control shadow" onkeyup="searchMember(this.value)">
+
+</div>
+<div class="table1">
+
+    <table class=" table  text-center text-light  ">
+        <thead>
+               <th class="">Index</th>
+               <th>MemberName</th>
+               <th>DescriptionPrice</th>
+               <th>StartDate</th>
+               <th>EndDate</th>
+               <th>Delete</th>
+          
+              
+           </thead>
+           <tbody id="demo" class="text-light">
+            
+        </tbody>
+    </table>
+    
+</div>
+
+ </div>
+
+
+
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+body{
+    background-color: black;
+    color:  white;
+
+   
+}
+.table{
+    border: 1px solid white;
+    overflow-x: scroll;
+}
+.all{
+   
+    width: 100vw;
+}
+.table1{
+    overflow-x: auto;
+}
